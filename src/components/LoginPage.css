@@ -1,0 +1,61 @@
+#root {
+    max-width: 500px;
+    width: 100%;
+    padding: 2rem;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  #root h1 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: white;
+    font-weight: 300;
+    letter-spacing: 2px;
+  }
+  
+  #root input {
+    width: calc(100% - 2rem); /* Adjusting width to account for padding */
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    color: white;
+    font-size: 1rem;
+    outline: none;
+    box-sizing: border-box; /* Ensuring padding is included in width calculation */
+  }
+  
+  #root button {
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem 0;
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s, border 0.3s;
+    border: 1px solid white;
+    box-sizing: border-box; /* Ensuring padding is included in width calculation */
+  }
+  
+  #root button:hover {
+    background: rgba(255, 255, 255, 0.3);
+    color: white;
+  }
+  
+  #root .switch-button {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+  }
+  
+  #root .switch-button:hover {
+    background: rgba(255, 255, 255, 0.3);
+    color: white;
+  }
+  
